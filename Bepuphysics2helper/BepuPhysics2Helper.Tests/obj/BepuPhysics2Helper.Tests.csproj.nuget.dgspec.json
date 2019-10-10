@@ -1,0 +1,482 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper.Tests\\BepuPhysics2Helper.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\mol\\bepuphysics2\\BepuPhysics\\BepuPhysics.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\mol\\bepuphysics2\\BepuPhysics\\BepuPhysics.csproj",
+        "projectName": "BepuPhysics",
+        "projectPath": "D:\\mol\\bepuphysics2\\BepuPhysics\\BepuPhysics.csproj",
+        "packagesPath": "C:\\Users\\Karn\\.nuget\\packages\\",
+        "outputPath": "D:\\mol\\bepuphysics2\\BepuPhysics\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj",
+        "projectName": "BepuUtilities",
+        "projectPath": "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj",
+        "packagesPath": "C:\\Users\\Karn\\.nuget\\packages\\",
+        "outputPath": "D:\\mol\\bepuphysics2\\BepuUtilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\mol\\bepuphysics2\\DemoContentLoader\\DemoContentLoader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\mol\\bepuphysics2\\DemoContentLoader\\DemoContentLoader.csproj",
+        "projectName": "DemoContentLoader",
+        "projectPath": "D:\\mol\\bepuphysics2\\DemoContentLoader\\DemoContentLoader.csproj",
+        "packagesPath": "C:\\Users\\Karn\\.nuget\\packages\\",
+        "outputPath": "D:\\mol\\bepuphysics2\\DemoContentLoader\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\mol\\bepuphysics2\\DemoRenderer\\DemoRenderer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\mol\\bepuphysics2\\DemoRenderer\\DemoRenderer.csproj",
+        "projectName": "DemoRenderer",
+        "projectPath": "D:\\mol\\bepuphysics2\\DemoRenderer\\DemoRenderer.csproj",
+        "packagesPath": "C:\\Users\\Karn\\.nuget\\packages\\",
+        "outputPath": "D:\\mol\\bepuphysics2\\DemoRenderer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\mol\\bepuphysics2\\BepuPhysics\\BepuPhysics.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\BepuPhysics\\BepuPhysics.csproj"
+              },
+              "D:\\mol\\bepuphysics2\\DemoContentLoader\\DemoContentLoader.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\DemoContentLoader\\DemoContentLoader.csproj"
+              },
+              "D:\\mol\\bepuphysics2\\DemoUtilities\\DemoUtilities.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\DemoUtilities\\DemoUtilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "SharpDX": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "SharpDX.Direct3D11": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\mol\\bepuphysics2\\DemoUtilities\\DemoUtilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\mol\\bepuphysics2\\DemoUtilities\\DemoUtilities.csproj",
+        "projectName": "DemoUtilities",
+        "projectPath": "D:\\mol\\bepuphysics2\\DemoUtilities\\DemoUtilities.csproj",
+        "packagesPath": "C:\\Users\\Karn\\.nuget\\packages\\",
+        "outputPath": "D:\\mol\\bepuphysics2\\DemoUtilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "OpenTK.NETCore": {
+              "target": "Package",
+              "version": "[1.1.2749.6433, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper.Tests\\BepuPhysics2Helper.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper.Tests\\BepuPhysics2Helper.Tests.csproj",
+        "projectName": "BepuPhysics2Helper.Tests",
+        "projectPath": "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper.Tests\\BepuPhysics2Helper.Tests.csproj",
+        "packagesPath": "C:\\Users\\Karn\\.nuget\\packages\\",
+        "outputPath": "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\mol\\bepuphysics2\\BepuPhysics\\BepuPhysics.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\BepuPhysics\\BepuPhysics.csproj"
+              },
+              "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper\\BepuPhysics2Helper.csproj": {
+                "projectPath": "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper\\BepuPhysics2Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper\\BepuPhysics2Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper\\BepuPhysics2Helper.csproj",
+        "projectName": "BepuPhysics2Helper",
+        "projectPath": "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper\\BepuPhysics2Helper.csproj",
+        "packagesPath": "C:\\Users\\Karn\\.nuget\\packages\\",
+        "outputPath": "D:\\standalone\\Bepuphysics2helper\\BepuPhysics2Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\mol\\bepuphysics2\\BepuPhysics\\BepuPhysics.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\BepuPhysics\\BepuPhysics.csproj"
+              },
+              "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\BepuUtilities\\BepuUtilities.csproj"
+              },
+              "D:\\mol\\bepuphysics2\\DemoContentLoader\\DemoContentLoader.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\DemoContentLoader\\DemoContentLoader.csproj"
+              },
+              "D:\\mol\\bepuphysics2\\DemoRenderer\\DemoRenderer.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\DemoRenderer\\DemoRenderer.csproj"
+              },
+              "D:\\mol\\bepuphysics2\\DemoUtilities\\DemoUtilities.csproj": {
+                "projectPath": "D:\\mol\\bepuphysics2\\DemoUtilities\\DemoUtilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
